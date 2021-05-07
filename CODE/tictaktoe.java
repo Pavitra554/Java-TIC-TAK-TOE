@@ -54,21 +54,21 @@ public class tictaktoe {
         int f = 0;
         System.out.print("\t\tWELCOME TO TIC-TAK-TOK\n\n");
         System.out.println("NOTE : just enter rows and column number and that place is your's :)\n\n");
-        System.out.print("PLAYER 1 : enter your name : \n");
+        System.out.print("PLAYER 1 : Enter your name : \n");
         String p_n_1 = s.nextLine();
-        System.out.print("PLAYER 2 : enter your name : \n");
+        System.out.print("PLAYER 2 : Enter your name : \n");
         String p_n_2 = s.nextLine();
 
             for (int i = 0; i < 9; i++) {
                 
                 if (i % 2 == 0) {
-                    System.out.println(p_n_1 + " enter rows and column number : ");
+                    System.out.println(p_n_1 + " Enter rows and column number : ");
                     rows = s.nextInt();
                     columns = s.nextInt();
                     arena[rows][columns] = "X";
                   
                 } else {
-                    System.out.println(p_n_2 + " enter rows and column number : ");
+                    System.out.println(p_n_2 + " Enter rows and column number : ");
                     rows = s.nextInt();
                     columns = s.nextInt();
                     arena[rows][columns] = "O";
