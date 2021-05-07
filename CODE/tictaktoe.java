@@ -89,7 +89,7 @@ public class tictaktoe {
                 }
             }
             if(f == 0){
-                System.out.println("Draw!!!");
+                System.out.println("Draw......!!!");
             }
 
     s.close();
